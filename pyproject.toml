@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+version = "1.0"
+name = "shedding-python"
+dependencies = [
+    "jupyterlab",
+    "ruff"
+]
+readme = "README.md"
+
+[tool.hatch.envs.default.scripts]
+lab = "jupyter lab"
+
+[tool.ruff]
+line-length=120
+
