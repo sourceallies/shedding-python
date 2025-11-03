@@ -3,6 +3,6 @@ Small Python Ideas contained in jupyter notebooks
 
 Setup (Mac):
 ```sh
-brew install hatch # If you don't already have it
-hatch run lab
+brew install uv # If you don't already have it
+uv run jupyter lab
 ```
