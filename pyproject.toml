@@ -4,6 +4,10 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.9"
-dependencies = [    "jupyterlab",
-    "ruff"
+dependencies = [
+    "boto3>=1.40.65",
+    "jupyterlab",
+    "langchain>=0.3.27",
+    "langchain-aws>=0.2.35",
+    "ruff",
 ]
